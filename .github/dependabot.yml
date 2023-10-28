@@ -21,3 +21,73 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: nuget
+    directory: /samples/Helpdesk.Relational.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: docker
+    directory: /samples/Helpdesk.Relational
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /samples/Helpdesk.Relational
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Expressions.Database
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Expressions.EntityFrameworkCore
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Expressions.Marten
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Expressions.Reading
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Expressions.Writing
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /src/Expressions
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /tests/Common.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /tests/Expressions.EntityFrameworkCore.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /tests/Expressions.Marten.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /tests/Expressions.Reading.Tests
+    schedule:
+      interval: daily
+
+  - package-ecosystem: nuget
+    directory: /tests/Expressions.Tests
+    schedule:
+      interval: daily
